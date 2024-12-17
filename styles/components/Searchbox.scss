@@ -1,0 +1,19 @@
+.serachbox-component {
+    background-color: white;
+    border: 0;
+    width: 100%;
+    height: 35px;
+    padding: 0 20px;
+    text-align: center;
+    color: black;
+
+    &:focus {
+        outline: none;
+        border-right: 1px solid lightgray;
+        border-left: 1px solid lightgray;
+    }
+
+    &::selection {
+        background-color: lightgray;
+    }
+}

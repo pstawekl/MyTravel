@@ -1,0 +1,17 @@
+@keyframes slide-up {
+    from {
+        bottom: -40vh;
+    }
+    to {
+        bottom: 0;
+    }
+}
+
+@keyframes slide-down {
+    from {
+        bottom: 0;
+    }
+    to {
+        bottom: -40vh;
+    }
+}
